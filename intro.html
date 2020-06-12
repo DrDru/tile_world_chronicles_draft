@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<!--https://nipponcolors.com/#ichigo-->
+
+
+<link rel="stylesheet" type="text/css" href="book_pages.css">
+
+
+<style>
+
+
+
+
+
+
+
+img {
+
+  width: 64px;
+  height: 64px;
+
+
+}
+
+.perso {
+    
+    text-align: center;
+
+}
+
+
+
+
+.intro_page {
+
+        background-repeat: no-repeat;
+     background-size: 100% 100%;
+     background-image: url('./assets/parchment.png');
+     font-size: 150%;
+
+}
+
+
+</style>
+</head>
+
+<body>
+
+
+<div class="main">
+
+  <div class="top">
+    <span class="next"><p>On the road again</p></span>
+  </div>
+
+	<div class="page left_page intro_page"> 
+    <div class="blabla">
+    <p>Blabla blabla. Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla. This story is very cool and is written in a very cool font.
+    </p>
+	</div>
+</div>
+
+	<div class="page right_page intro_page">
+    <div class="blabla">
+      <p>Blabla blabla. Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.Blabla blabla.</p>
+      <div class="perso"><img  src="./assets/Male 06-1.png" alt="Italian Trulli" ></div>
+  </div>
+</div>
+
+<div class="bottom">	
+	<span class="next"><p>Prev | <a href="./map.html">Next</a></p></span>
+</div>
+
+</div>
+
+
+<script>
+
+  $(window).on('resize', function() {
+    if($(window).height() > 400) {
+        $('#body').addClass('limit1200');
+        $('#body').removeClass('limit400');
+    }else{
+        $('#body').addClass('limit400');
+        $('#body').removeClass('limit1200');
+    }
+})
+
+</script>
+
+
+
+
+
+</body>
