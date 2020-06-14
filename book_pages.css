@@ -1,5 +1,6 @@
 body { 
-   background-color: #529972;
+
+       background-image: linear-gradient(to bottom right, #529972, #bae0cb); 
 
  }
 
@@ -15,7 +16,7 @@ body {
      
   margin: 0 auto;
   font-family: morris_romanbold;
-     width: 790px   
+  width: 790px   
 
 }
 
@@ -23,14 +24,12 @@ body {
 
   font-family: morris_romanbold;
   background-color: black;
-  
   border:5px solid white;
   border-radius: 25px;
   color: white;
   font-size: 150%;
   margin-bottom: 4px;
   width: 100%;
-  position: relative;
 
 }
 
@@ -54,8 +53,7 @@ body {
      margin-bottom: 30px;
      font-family: morris_romanbold;
      width: 100%;
-     margin-right: 1%;
-     margin-left: 1%;
+
 }
 
 
