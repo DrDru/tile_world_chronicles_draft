@@ -16,9 +16,23 @@ body {
      
   margin: 0 auto;
   font-family: morris_romanbold;
-  width: 790px   
-
+  width: 790px;
 }
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+     
+
+  .main { 
+
+    width: min(380px, 90%);
+    margin: 0 auto;
+    font-family: morris_romanbold;
+   }
+}
+
+
+
 
 .top {
 
